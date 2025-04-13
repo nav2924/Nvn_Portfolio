@@ -49,7 +49,9 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/Chatterforge.png" alt="ChatterForge" />
+              <a href="https://chatterforge.onrender.com/" target="_blank">
+                <img src="/Chatterforge.png" alt="ChatterForge" />
+              </a>
             </div>
             <div className="text-content">
               <h2>
@@ -69,7 +71,9 @@ const AppShowcase = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
-                <img src="public/creova.png" alt="Creova" />
+                <a href="https://creova.vercel.app/" target="_blank">
+                  <img src="/creova.png" alt="Creova" />
+                </a>
               </div>
               <h2>
                 Creova – my minimalistic and lightweight version of Figma! 🎨✨
@@ -78,7 +82,12 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper ">
-                <img src="/InventFlow.png" alt="inventflow" />
+                <a
+                  href="https://main.d1pls9soqnfwtf.amplifyapp.com/dashboard"
+                  target="_blank"
+                >
+                  <img src="/InventFlow.png" alt="inventflow" />
+                </a>
               </div>
               <h2>
                 InventFlow - An inventory Management deployed on AWS cloud

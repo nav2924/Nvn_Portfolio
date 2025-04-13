@@ -74,18 +74,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Pixel-Perfect Precision",
+    desc: "Every line of code crafted with care to deliver flawless, high-quality results you can rely on.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Crystal-Clear Communication",
+    desc: "Stay in the loop at every step—no confusion, no guesswork. Just smooth, transparent updates.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Deadlines? Always Met.",
+    desc: "Your time matters. Expect timely delivery without compromising quality or attention to detail.",
   },
 ];
 
@@ -147,42 +147,46 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+      "Naveen was instrumental in enhancing our backend systems at DentalHifi. His leadership and coordination of the backend team helped us scale quickly and maintain quality under tight deadlines.",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    logoPath: "/images/logos/Dentalhifi.png",
+    title: "Backend Developer & Team Coordinator",
+    date: "March 2024 – June 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed RESTful APIs using Node.js, Express, and MongoDB.",
+      "Led the backend development team, assigning tasks and overseeing progress.",
+      "Optimized data handling and improved backend performance for user-heavy scenarios.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+      "Naveen's freelance work reflects both versatility and reliability. He approaches each project with a strong full-stack mindset, delivering clean, scalable solutions that exceed expectations.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Freelance Full Stack Developer",
+    date: "September 2024 – Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed full-stack solutions using the MERN stack for various clients.",
+      "Worked directly with clients to understand requirements and deliver custom features.",
+      "Handled deployment, version control, and performance optimization.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+      "Naveen has been a key contributor at Spaceify, where his backend expertise and DevOps skills have greatly improved our development workflow and deployment processes.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Backend Developer & DevOps Engineer",
+    date: "April 2025 – Present",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built robust backend services with Node.js and Express.",
+      "Implemented CI/CD pipelines and containerized applications using Docker.",
+      "Collaborated with teams to maintain server health and monitor production environments.",
     ],
   },
 ];
+
 
 const expLogos = [
   {
