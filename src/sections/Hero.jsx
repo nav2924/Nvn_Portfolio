@@ -2,15 +2,17 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { words } from "../constants";
 import Button from "../components/Button";
+import HeroExperience from "../components/HeroModels/HeroExperience";
+import AnimatedCounter from "../components/AnimatedCounter";
 
 const Hero = () => {
-  // useGSAP(() => {
-  //   gsap.fromTo(
-  //     ".hero-text h1",
-  //     { y: 50, opacity: 0 },
-  //     { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
-  //   );
-  // });
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
+    );
+  });
 
   return (
     <section id="hero" className="relative overflow-hidden">
@@ -19,7 +21,6 @@ const Hero = () => {
       </div>
 
       <div className="hero-layout">
-        {/* LEFT: Hero Content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
@@ -49,7 +50,7 @@ const Hero = () => {
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               "Hey! I’m Naveen — an Indian-based Web Developer with a love for
               Machine Learning and a growing passion for DevOps. I enjoy turning
-              ideas into powerful, real-world applications.
+              ideas into powe rful, real-world applications.
             </p>
             <Button
               text="See My Work"
@@ -59,15 +60,13 @@ const Hero = () => {
           </div>
         </header>
 
-        {/* RIGHT: 3D Model or Visual */}
-        {/* <figure>
-          <div className="hero-3d-layout">
+        <figure>
+          <div className="hero-3d-layout ">
             <HeroExperience />
           </div>
-        </figure> */}
+        </figure>
       </div>
-
-      {/* <AnimatedCounter /> */}
+      <AnimatedCounter />
     </section>
   );
 };
