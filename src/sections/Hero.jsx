@@ -20,7 +20,7 @@ const Hero = () => {
         <img src="/images/bg.png" alt="" />
       </div>
 
-      <div className="hero-layout">
+      <div className="hero-layout flex flex-col-reverse xl:flex-row items-center justify-between xl:h-screen px-6 xl:px-20">
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
@@ -60,8 +60,8 @@ const Hero = () => {
           </div>
         </header>
 
-        <figure>
-          <div className="hero-3d-layout ">
+        <figure className="flex ">
+          <div className="hero-3d-layout">
             <HeroExperience />
           </div>
         </figure>
