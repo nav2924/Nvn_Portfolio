@@ -45,12 +45,12 @@ const Hero = () => {
                 </span>
               </h1>
               <h1>into Real Projects</h1>
-              <h1>that Drive Im</h1>
+              <h1>that Drive me</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               "Hey! I’m Naveen — an Indian-based Web Developer with a love for
               Machine Learning and a growing passion for DevOps. I enjoy turning
-              ideas into powe rful, real-world applications.
+              ideas into powerful, real-world applications.
             </p>
             <Button
               text="See My Work"
